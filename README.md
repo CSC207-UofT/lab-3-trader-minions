@@ -16,7 +16,7 @@ In `test/main/java` we have given you the following file:
 ### Task 2: Implementing a class with interfaces
 In this task you'll be writing a class that implements the `Tradable` interface and at least one of the other provided interfaces (i.e. `Drivable`, `Domesticatable`, or both). In addition, you should be writing test cases for your class and adding at least one instance of your new class to `Trader.java`'s main method.
 
-You should be working on a **branch** of the repository, as opposed to committing directly to the master branch. If you need help creating a branch, refer to the instructions from the README of the [Lab 1: Git and Jave activity](https://q.utoronto.ca/courses/233945/pages/lab-1-activity-using-git-and-java).
+You should be working on a **branch** of the repository, as opposed to committing directly to the master branch. If you need help creating a branch, refer to the instructions from the README of the [Lab 1: Git and Java activity](https://q.utoronto.ca/courses/233945/pages/lab-1-activity-using-git-and-java).
 
 You are free to do write whatever you'd like here. However, include *at least* one problem in your code such as:
 - Bad (or missing) documentation
