@@ -1,22 +1,22 @@
 public class Weeb implements Tradable, Drivable{
-    private int sPeDe;
+    private int speed;
 
     public Weeb(){
-        this.sPeDe = 20;
+        this.speed = 20;
     }
     @Override
     public void upgradeSpeed() {
-        this.sPeDe += 20;
+        this.speed += 20;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.sPeDe -= 6;
+        this.speed -= 6;
     }
 
     @Override
     public int getMaxSpeed() {
-        return sPeDe;
+        return speed;
     }
 
     @Override
