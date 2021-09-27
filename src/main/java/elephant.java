@@ -7,7 +7,7 @@ public class elephant implements Tradable, Domesticatable {
 
     @Override
     public String sound() {
-        //Returns the
+        //Returns the sound of elephant.
         return "eEEEEEEEEee";
     }
 }
