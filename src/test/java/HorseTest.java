@@ -42,5 +42,9 @@ public class HorseTest {
     public void TestGetPrice() {
         assertEquals(10, h.getPrice());
     }
-
+    
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(420, 420);
+    }
 }
