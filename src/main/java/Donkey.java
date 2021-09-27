@@ -1,7 +1,7 @@
 public class Donkey implements Tradable, Drivable, Domesticatable {
-    private int MaX_SpEeD;
+    private int maxSpeed;
 
-    public Donkey(){ this.MaX_SpEeD = 8; }
+    public Donkey(){ this.maxSpeed = 8; }
 
     // Method for Tradable interface
     @Override
@@ -13,17 +13,17 @@ public class Donkey implements Tradable, Drivable, Domesticatable {
     // Methods for Drivable interface
     @Override
     public void upgradeSpeed() {
-        this.MaX_SpEeD++;
+        this.maxSpeed++;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.MaX_SpEeD--;
+        this.maxSpeed--;
     }
 
     @Override
     public int getMaxSpeed() {
-        return this.MaX_SpEeD;
+        return this.maxSpeed;
     }
 
     // Methods for Domesticatable
