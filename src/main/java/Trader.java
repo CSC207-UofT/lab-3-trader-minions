@@ -101,7 +101,9 @@ public class Trader {
                 new EamonMa(),
                 new EamonMa(),
                 new EamonMa(),
-                new EamonMa()
+                new EamonMa(),
+                new TaiZhangFeet(),
+                new TaiZhangFeet()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
