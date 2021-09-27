@@ -31,9 +31,12 @@ public class MotorcycleTest {
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        h.downgradeSpeed();
+        m.downgradeSpeed();
         assertEquals(0, m.getMaxSpeed());
     }
 
-
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(10, m.getPrice());
+    }
 }
