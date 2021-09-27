@@ -6,7 +6,7 @@ public class Eamonma implements Drivable, Domesticatable, Tradable{
 
     public Eamonma() {
         this.speed = 0xFFFFFFFF;
-        this.price = 0x69696969;
+        this.price = 0b0101010101;
         this.purchased = false;
         this.name = "eamon ma";
     }
