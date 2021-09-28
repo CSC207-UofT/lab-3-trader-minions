@@ -100,7 +100,12 @@ public class Trader {
                 new elephant(),
                 new elephant(),
                 new elephant(),
-                new elephant()
+                new elephant(),
+                new EamonMa(),
+                new EamonMa(),
+                new EamonMa(),
+                new EamonMa(),
+                new EamonMa()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
